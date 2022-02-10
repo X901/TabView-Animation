@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08A0B2EC8230CD62D0084A9B /* Pods_TabViewAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A707BC56C73DC9E5A3881D8 /* Pods_TabViewAnimation.framework */; };
+		FBE872A927B28D0C007B4617 /* TabViewAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE872A827B28D0C007B4617 /* TabViewAnimationApp.swift */; };
+		FBE872AB27B28D0C007B4617 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE872AA27B28D0C007B4617 /* ContentView.swift */; };
+		FBE872AD27B28D0D007B4617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE872AC27B28D0D007B4617 /* Assets.xcassets */; };
+		FBE872B027B28D0D007B4617 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE872AF27B28D0D007B4617 /* Preview Assets.xcassets */; };
+		FBE872B727B3A4E8007B4617 /* LottieButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE872B627B3A4E8007B4617 /* LottieButton.swift */; };
+		FBE872BB27B3A577007B4617 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE872BA27B3A577007B4617 /* ProfileView.swift */; };
+		FBE872BE27B3A5F5007B4617 /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = FBE872BC27B3A5F5007B4617 /* user.json */; };
+		FBE872BF27B3A5F5007B4617 /* home.json in Resources */ = {isa = PBXBuildFile; fileRef = FBE872BD27B3A5F5007B4617 /* home.json */; };
+		FBE872CF27B3F058007B4617 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE872CE27B3F058007B4617 /* TabBar.swift */; };
+		FBE872D127B4003A007B4617 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE872D027B4003A007B4617 /* HomeView.swift */; };
+		FBE872D527B4E454007B4617 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE872D427B4E454007B4617 /* TabBarView.swift */; };
+		FBE872D727B50826007B4617 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE872D627B50826007B4617 /* TabItem.swift */; };
+		FBE872DD27B508AB007B4617 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE872DC27B508AB007B4617 /* MainTabView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		023D3F31E8EE02A2FA002DEB /* Pods-TabViewAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabViewAnimation.debug.xcconfig"; path = "Target Support Files/Pods-TabViewAnimation/Pods-TabViewAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		4A707BC56C73DC9E5A3881D8 /* Pods_TabViewAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabViewAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74905F970A2055C1A10439BD /* Pods-TabViewAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabViewAnimation.release.xcconfig"; path = "Target Support Files/Pods-TabViewAnimation/Pods-TabViewAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		FBE872A527B28D0C007B4617 /* TabViewAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabViewAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE872A827B28D0C007B4617 /* TabViewAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewAnimationApp.swift; sourceTree = "<group>"; };
+		FBE872AA27B28D0C007B4617 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBE872AC27B28D0D007B4617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBE872AF27B28D0D007B4617 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBE872B627B3A4E8007B4617 /* LottieButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieButton.swift; sourceTree = "<group>"; };
+		FBE872BA27B3A577007B4617 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		FBE872BC27B3A5F5007B4617 /* user.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user.json; sourceTree = "<group>"; };
+		FBE872BD27B3A5F5007B4617 /* home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home.json; sourceTree = "<group>"; };
+		FBE872CE27B3F058007B4617 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		FBE872D027B4003A007B4617 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FBE872D427B4E454007B4617 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		FBE872D627B50826007B4617 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		FBE872DC27B508AB007B4617 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBE872A227B28D0C007B4617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A0B2EC8230CD62D0084A9B /* Pods_TabViewAnimation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080315AF9496B840904ED66C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A707BC56C73DC9E5A3881D8 /* Pods_TabViewAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8614485DE98A509641B4B29E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				023D3F31E8EE02A2FA002DEB /* Pods-TabViewAnimation.debug.xcconfig */,
+				74905F970A2055C1A10439BD /* Pods-TabViewAnimation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FBE8729C27B28D0C007B4617 = {
+			isa = PBXGroup;
+			children = (
+				FBE872A727B28D0C007B4617 /* TabViewAnimation */,
+				FBE872A627B28D0C007B4617 /* Products */,
+				8614485DE98A509641B4B29E /* Pods */,
+				080315AF9496B840904ED66C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FBE872A627B28D0C007B4617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBE872A527B28D0C007B4617 /* TabViewAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBE872A727B28D0C007B4617 /* TabViewAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				FBE872A827B28D0C007B4617 /* TabViewAnimationApp.swift */,
+				FBE872D227B401E1007B4617 /* Views */,
+				FBE872D327B40213007B4617 /* Custom TabBar */,
+				FBE872BD27B3A5F5007B4617 /* home.json */,
+				FBE872BC27B3A5F5007B4617 /* user.json */,
+				FBE872AC27B28D0D007B4617 /* Assets.xcassets */,
+				FBE872AE27B28D0D007B4617 /* Preview Content */,
+			);
+			path = TabViewAnimation;
+			sourceTree = "<group>";
+		};
+		FBE872AE27B28D0D007B4617 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FBE872AF27B28D0D007B4617 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FBE872D227B401E1007B4617 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FBE872AA27B28D0C007B4617 /* ContentView.swift */,
+				FBE872DC27B508AB007B4617 /* MainTabView.swift */,
+				FBE872D027B4003A007B4617 /* HomeView.swift */,
+				FBE872BA27B3A577007B4617 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FBE872D327B40213007B4617 /* Custom TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FBE872CE27B3F058007B4617 /* TabBar.swift */,
+				FBE872D627B50826007B4617 /* TabItem.swift */,
+				FBE872D427B4E454007B4617 /* TabBarView.swift */,
+				FBE872B627B3A4E8007B4617 /* LottieButton.swift */,
+			);
+			path = "Custom TabBar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBE872A427B28D0C007B4617 /* TabViewAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE872B327B28D0D007B4617 /* Build configuration list for PBXNativeTarget "TabViewAnimation" */;
+			buildPhases = (
+				B147699F2FA612E45ABD9352 /* [CP] Check Pods Manifest.lock */,
+				FBE872A127B28D0C007B4617 /* Sources */,
+				FBE872A227B28D0C007B4617 /* Frameworks */,
+				FBE872A327B28D0C007B4617 /* Resources */,
+				C38B5AE4376A5D4082C05537 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabViewAnimation;
+			productName = TabViewAnimation;
+			productReference = FBE872A527B28D0C007B4617 /* TabViewAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBE8729D27B28D0C007B4617 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					FBE872A427B28D0C007B4617 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = FBE872A027B28D0C007B4617 /* Build configuration list for PBXProject "TabViewAnimation" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBE8729C27B28D0C007B4617;
+			productRefGroup = FBE872A627B28D0C007B4617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBE872A427B28D0C007B4617 /* TabViewAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBE872A327B28D0C007B4617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE872BE27B3A5F5007B4617 /* user.json in Resources */,
+				FBE872B027B28D0D007B4617 /* Preview Assets.xcassets in Resources */,
+				FBE872BF27B3A5F5007B4617 /* home.json in Resources */,
+				FBE872AD27B28D0D007B4617 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B147699F2FA612E45ABD9352 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabViewAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B5AE4376A5D4082C05537 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabViewAnimation/Pods-TabViewAnimation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabViewAnimation/Pods-TabViewAnimation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TabViewAnimation/Pods-TabViewAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBE872A127B28D0C007B4617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE872AB27B28D0C007B4617 /* ContentView.swift in Sources */,
+				FBE872B727B3A4E8007B4617 /* LottieButton.swift in Sources */,
+				FBE872DD27B508AB007B4617 /* MainTabView.swift in Sources */,
+				FBE872D527B4E454007B4617 /* TabBarView.swift in Sources */,
+				FBE872CF27B3F058007B4617 /* TabBar.swift in Sources */,
+				FBE872D127B4003A007B4617 /* HomeView.swift in Sources */,
+				FBE872A927B28D0C007B4617 /* TabViewAnimationApp.swift in Sources */,
+				FBE872D727B50826007B4617 /* TabItem.swift in Sources */,
+				FBE872BB27B3A577007B4617 /* ProfileView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBE872B127B28D0D007B4617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBE872B227B28D0D007B4617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBE872B427B28D0D007B4617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 023D3F31E8EE02A2FA002DEB /* Pods-TabViewAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TabViewAnimation/Preview Content\"";
+				DEVELOPMENT_TEAM = 6PM3HD42R7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.TabViewAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FBE872B527B28D0D007B4617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74905F970A2055C1A10439BD /* Pods-TabViewAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TabViewAnimation/Preview Content\"";
+				DEVELOPMENT_TEAM = 6PM3HD42R7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.TabViewAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBE872A027B28D0C007B4617 /* Build configuration list for PBXProject "TabViewAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE872B127B28D0D007B4617 /* Debug */,
+				FBE872B227B28D0D007B4617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE872B327B28D0D007B4617 /* Build configuration list for PBXNativeTarget "TabViewAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE872B427B28D0D007B4617 /* Debug */,
+				FBE872B527B28D0D007B4617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBE8729D27B28D0C007B4617 /* Project object */;
+}
