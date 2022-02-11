@@ -20,7 +20,7 @@ struct MainTabView: View {
         
         NavigationView {
         
-            TabBarView(tabItems: tabItems) {}
+            TabBarView(tabItems: tabItems) {
             
                 switch selectedTab {
                 case .first:
