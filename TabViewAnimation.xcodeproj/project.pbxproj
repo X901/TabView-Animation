@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		08A0B2EC8230CD62D0084A9B /* Pods_TabViewAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A707BC56C73DC9E5A3881D8 /* Pods_TabViewAnimation.framework */; };
 		FBE872A927B28D0C007B4617 /* TabViewAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE872A827B28D0C007B4617 /* TabViewAnimationApp.swift */; };
-		FBE872AB27B28D0C007B4617 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE872AA27B28D0C007B4617 /* ContentView.swift */; };
 		FBE872AD27B28D0D007B4617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE872AC27B28D0D007B4617 /* Assets.xcassets */; };
 		FBE872B027B28D0D007B4617 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE872AF27B28D0D007B4617 /* Preview Assets.xcassets */; };
 		FBE872B727B3A4E8007B4617 /* LottieButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE872B627B3A4E8007B4617 /* LottieButton.swift */; };
@@ -29,7 +28,6 @@
 		74905F970A2055C1A10439BD /* Pods-TabViewAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabViewAnimation.release.xcconfig"; path = "Target Support Files/Pods-TabViewAnimation/Pods-TabViewAnimation.release.xcconfig"; sourceTree = "<group>"; };
 		FBE872A527B28D0C007B4617 /* TabViewAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabViewAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE872A827B28D0C007B4617 /* TabViewAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewAnimationApp.swift; sourceTree = "<group>"; };
-		FBE872AA27B28D0C007B4617 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FBE872AC27B28D0D007B4617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBE872AF27B28D0D007B4617 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FBE872B627B3A4E8007B4617 /* LottieButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieButton.swift; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 		FBE872D227B401E1007B4617 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FBE872AA27B28D0C007B4617 /* ContentView.swift */,
 				FBE872DC27B508AB007B4617 /* MainTabView.swift */,
 				FBE872D027B4003A007B4617 /* HomeView.swift */,
 				FBE872BA27B3A577007B4617 /* ProfileView.swift */,
@@ -250,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBE872AB27B28D0C007B4617 /* ContentView.swift in Sources */,
 				FBE872B727B3A4E8007B4617 /* LottieButton.swift in Sources */,
 				FBE872DD27B508AB007B4617 /* MainTabView.swift in Sources */,
 				FBE872D527B4E454007B4617 /* TabBarView.swift in Sources */,
