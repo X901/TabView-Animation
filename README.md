@@ -13,4 +13,4 @@ https://user-images.githubusercontent.com/16876982/153512427-15a51fb5-72b0-4481-
 
 ## Installation
 This project depend on `Cocoapods` to install `Lottie`
-you need to open project on `Terminal` then write `pod install`
+you need to open the project on `Terminal` then use `pod install`
