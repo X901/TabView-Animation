@@ -20,19 +20,19 @@ struct MainTabView: View {
         
         NavigationView {
         
-            TabBarView(tabItems: tabItems) {}
+            TabBarView(tabItems: tabItems) {
             
+            Group {
                 switch selectedTab {
                 case .first:
                     HomeView()
-                        .frame(maxWidth: .infinity, maxHeight: .infinity)
-
+ 
                 case .second:
                     ProfileView()
-                        .frame(maxWidth: .infinity, maxHeight: .infinity)
-
                 }
-            
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+
          
         }
         .navigationTitle("Test")
